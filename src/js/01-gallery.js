@@ -24,3 +24,9 @@ const galleryMarkup = images
 
 // Galeri markup'u ekle
 galleryContainer.innerHTML = galleryMarkup;
+
+// SimpleLightbox başlatma
+new SimpleLightbox(".gallery a", {
+  captionsData: "alt",
+  captionDelay: 250,
+});
